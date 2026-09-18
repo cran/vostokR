@@ -54,6 +54,7 @@ Useful links:
 
 Authors:
 \itemize{
+  \item Andrew J. Sanchez Meador \email{andrew.sanchezmeador@nau.edu}
   \item Sebastian Bechtold (Original VOSTOK C++ implementation)
   \item Bernhard Hofle (Original VOSTOK C++ implementation)
 }

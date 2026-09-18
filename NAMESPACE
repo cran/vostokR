@@ -11,11 +11,15 @@ export(plot_solar_potential)
 export(set_vostokr_threads)
 export(solar_ground_raster)
 importFrom(Rcpp,sourceCpp)
-importFrom(lidR,add_attribute)
-importFrom(lidR,knn)
-importFrom(lidR,readLAS)
+importFrom(lidR,
+  add_attribute,
+  knn,
+  readLAS
+)
 importFrom(methods,is)
-importFrom(stats,na.omit)
-importFrom(stats,setNames)
+importFrom(stats,
+  na.omit,
+  setNames
+)
 importFrom(utils,globalVariables)
 useDynLib(vostokR, .registration = TRUE)

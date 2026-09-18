@@ -1,8 +1,8 @@
 Package: vostokR
 Type: Package
 Title: Solar Potential Calculation for Point Clouds using 'VOSTOK'
-Version: 0.2.1
-Date: 2026-03-25
+Version: 0.2.2
+Date: 2026-09-18
 Authors@R: c(
     person("Andrew J.", "Sanchez Meador", 
            email = "andrew.sanchezmeador@nau.edu", 
@@ -24,18 +24,18 @@ License: GPL (>= 3)
 URL: https://github.com/bi0m3trics/vostokR
 BugReports: https://github.com/bi0m3trics/vostokR/issues
 Encoding: UTF-8
-Imports: Rcpp (>= 1.0.11), lidR (>= 4.0.0), data.table, terra, sf (>=
+Imports: Rcpp (>= 1.0.11), lidR (>= 4.3.3), data.table, terra, sf (>=
         1.0.0), methods
 Suggests: testthat (>= 3.0.0)
 LinkingTo: Rcpp, RcppArmadillo, RcppEigen
 Config/testthat/edition: 3
-RoxygenNote: 7.3.3
 SystemRequirements: C++17, OpenMP (optional)
+Config/roxygen2/version: 8.1.0
 NeedsCompilation: yes
-Packaged: 2026-03-25 11:58:27 UTC; ajsm
+Packaged: 2026-09-18 13:00:16 UTC; ajsm
 Author: Andrew J. Sanchez Meador [aut, cre],
   Sebastian Bechtold [aut] (Original VOSTOK C++ implementation),
   Bernhard Hofle [aut] (Original VOSTOK C++ implementation)
 Maintainer: Andrew J. Sanchez Meador <andrew.sanchezmeador@nau.edu>
 Repository: CRAN
-Date/Publication: 2026-03-25 22:30:02 UTC
+Date/Publication: 2026-09-18 15:00:02 UTC
